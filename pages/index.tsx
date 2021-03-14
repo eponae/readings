@@ -1,6 +1,6 @@
 import Head from "next/head";
 import Dashboard from "../components/dashboard/Dashboard";
-import { Container, Footer, Logo, Main } from "./index.style";
+import { Container, Footer, Logo, Main } from "../styles/index.style";
 
 export default function Home() {
   return (

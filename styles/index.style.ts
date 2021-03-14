@@ -30,6 +30,7 @@ export const Footer = styled.footer`
 export const FooterImage = styled.img`
   margin-left: 0.5rem;
 `;
+
 export const FooterLink = styled.a`
   display: flex;
   justify-content: center;
