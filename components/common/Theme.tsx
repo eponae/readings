@@ -12,8 +12,29 @@ export const screenDimensions = {
 const theme = {
   fontFamily: "'Roboto', sans-serif",
   fontFamilyTitle: "'Playfair Display', serif",
-  colors: {},
-  spacing: {},
+  colors: {
+    black: "#303030",
+    greyishBrown: "#424242",
+    blackTwo: "#212121",
+    brownishGrey: "#616161",
+    brownishGreyTwo: "#757575",
+    brownGrey: "#9e9e9e",
+    veryLightPink: "#bdbdbd",
+    veryLightPinkTwo: "#e0e0e0",
+    veryLightPinkThree: "#eeeeee",
+    white: "#f5f5f5",
+    whiteTwo: "#fafafa",
+    whiteThree: "#ffffff",
+    paleGold: "#fcd86c",
+    marigold: "#ffc107",
+    goldenRod: "#f4ba0e",
+    burntYellow: "#d8a50c",
+    darkGreyBlue: "#34315d",
+    red: "#d50000",
+    teal: "#009688",
+    offWhite: "#fff8e6",
+  },
+  spacing: { spacingXs: "4px", spacingS: "8px", spacingM: "12px" },
 };
 
 export type ThemeType = typeof theme;
